@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mx.com.devare.notificaciones.MainActivity">
+
+    <Button
+        android:id="@+id/btn_notifi_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeButton"
+        android:text="Notificacion simple" />
+
+    <Button
+        android:id="@+id/btn_notifi_acciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeButton"
+        android:text="Notificacion simple con acciones" />
+
+    <Button
+        android:id="@+id/btn_notifi_expandida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeButton"
+        android:text="Notificacion expandida" />
+
+    <Button
+        android:id="@+id/btn_notifi_multiple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeButton"
+        android:text="Notificacion multiple" />
+
+    <Button
+        android:id="@+id/btn_notifi_bigpicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ThemeButton"
+        android:text="Notificacion bigpicture" />
+
+
+</LinearLayout>
